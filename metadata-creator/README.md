@@ -19,7 +19,7 @@ Instead of manually creating you're metadata files use a friendly helper instead
 1. In your Databricks workspace, navigate to `/Users/{your-username}/.assistant/skills/`
    - You can open this folder from the Assistant panel: click **Settings** > **Open skills folder**
 2. Click **Create** > **Git folder**
-3. Paste this repository's URL — the folder will default to **`prompt-to-genie`**, which is the correct skill name
+3. Paste this repository's URL — the folder will default to **`metadata-creator`**, which is the correct skill name
 
 That's it. The skill is now installed at:
 ```
