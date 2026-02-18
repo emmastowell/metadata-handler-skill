@@ -1,0 +1,47 @@
+{
+  "System": {
+    "AnalyticsProduct": "<ask user>",
+    "EntityType": "<ask user>",
+    "EntityInstance": "<ask user>",
+    "EntityContainer": "<ask user>",
+    "EntityName": "<derived from filename or ask>",
+    "EntityFullyQualifiedName": "<format: container.path.EntityName>",
+    "EntityPath": "<ask user>",
+    "SQL_warehouse_name": "<ask>",
+    "FileFormat": {
+      "Extension": "<derived from sample>",
+      "RowDelimiter": "<derived or ask>",
+      "ColumnDelimiter": "<derived or ask>",
+      "Header": "<derived from sample: true/false>",
+      "Character Set": "<derived or ask>",
+      "File Encryption": "<ask, default: None>",
+      "Compression": "<ask, default: None>",
+      "QuoteCharacter": "<derived or ask>",
+      "StripEvenCharactersFromRawFile": "<ask: true/false>"
+    },
+    "AllowedRetention": "<ask user in days>",
+    "IsHousekeepingEnabled": "<ask: true/false>",
+    "PartitionFormat": "<ask, e.g., yyyy/MM/dd>",
+    "PartitionTimeFormat": "<ask>",
+    "PartitionKey": "<ask user>"
+  },
+  "Catalogue": {
+    "DataClassification": "<ask user>",
+    "Description": "<ask user for description>",
+    "Schema": {
+      "Type": "Structured",
+      "Attributes": [
+        {
+          "OrdinalPosition": <number>,
+          "Name": "<column name>",
+          "Description": "<ask user or infer>",
+          "Nullable": "<derived: true/false>",
+          "Type": "<derived: string/integer/number/boolean>",
+          "SecurityClassification": "<ask user>",
+          "Example": "<from sample data>"
+        }
+      ],
+      "NaturalKey": ["<ask user which columns>"]
+    }
+  }
+}
